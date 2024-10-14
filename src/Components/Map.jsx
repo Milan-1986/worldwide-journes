@@ -7,6 +7,7 @@ import { useCities } from "../Context/CitiesContext";
 import { useGeolocation } from "../hooks/useGeolocation";
 import Button from "./Button";
 import { useUrlPosition } from "../hooks/useUrlPosition";
+import User from "./User";
 
 function Map() {
   // const [currentState,setCurrentState ] = useSearchParams()
