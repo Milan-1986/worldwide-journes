@@ -1,7 +1,7 @@
 import { createContext, useCallback, useContext, useReducer } from "react";
 import { useEffect } from "react";
 
-const BASE_URL = "http://localhost:8000"; // add this to readme file
+const BASE_URL = "https://localhost:8000";
 
 const CitiesContext = createContext();
 
