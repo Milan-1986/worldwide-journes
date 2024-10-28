@@ -1,28 +1,3 @@
 {
-  "cities": [
-    {
-      "id": "85eb",
-      "cityName": "East Attica Regional Unit",
-      "country": "Greece",
-      "emoji": "🇬🇷",
-      "date": "2024-10-23T22:49:39.435Z",
-      "notes": "",
-      "position": {
-        "lat": "37.75334401310659",
-        "lng": "23.774414062500004"
-      }
-    },
-    {
-      "id": "439f",
-      "cityName": "Malta",
-      "country": "Malta",
-      "emoji": "🇲🇹",
-      "date": "2024-10-23T22:49:47.741Z",
-      "notes": "",
-      "position": {
-        "lat": "35.71083783530009",
-        "lng": "14.414062500000002"
-      }
-    }
-  ]
+  "cities": []
 }
