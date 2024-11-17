@@ -9,7 +9,7 @@ function CountriesList() {
 
   if (isLOading) return <Spinner />;
 
-  if (!cities.length)
+  if (!cities?.length)
     return (
       <Message message="Add your first city by clicking on the city on the map" />
     );
@@ -21,7 +21,7 @@ function CountriesList() {
 
   return (
     <ul className={styles.countriesList}>
-      {countries.map((country) => (
+      {countries?.map((country) => (
         <CountryItem country={country} key={country.country} />
       ))}
     </ul>
